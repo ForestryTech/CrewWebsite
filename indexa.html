@@ -1,0 +1,285 @@
+<html>
+<head>
+<title>Mill Creek Hand Crew</title>
+<style type=text/css>
+<!--
+  a {color:FFE500;text-decoration:none}
+
+  td.menu {background-color:#666666; color:#023E19;
+           font-family:arial, serif, Times, 'Courier New';
+           font-size:15pt}
+
+  table.menu {background-color:#666666}
+
+  table.titlebar { background-color:#FFE500 }
+
+  td.titlebar { background-color:#023E19; color:#ffE500;
+                font-family:arial, serif, Times, 'Courier New';
+                font-size:10pt; line-height:15pt;
+                text-align:center}
+
+  table.popup {background-color:#666666}
+
+  td.popup {background-color:#666666; color:FFE500;
+            font-family:arial, serif, Times, 'Courier New';
+            font-size:10pt; text-align:left}
+
+//-->
+</style>
+<script language=javascript>
+<!--
+// This is from trbc_java.inc
+function delay_move() {
+   var x;
+   var y;
+   x = 0;
+   while(x < 100) {
+      x++;
+      y = x;
+   }
+   move_title();
+   //for(x = 0; x < 10000; x++) {
+   //   y = x;
+   //}
+   move_table();
+   return;
+}
+
+function move_title(){
+  var t;
+  t = document.all['logo'].style;
+  if(do_pos(t.top) < 10) {
+     t.top = do_pos(t.top) + 10;
+  } else {
+     return;
+  }
+  setTimeout("move_title()",50);
+}
+
+function move_table()
+{
+   var m;
+   var t;
+
+   t = document.all['logo'].style;
+   m = document.all['ind'].style;
+   if(do_pos(m.left) < 0) {
+      m.left = do_pos(m.left) + 10;
+   } else {
+      return;
+   }
+   setTimeout("move_table()",10);
+}
+
+function do_pos(x) {
+   return (eval(x.substring(0,x.length - 2)));
+}
+
+
+function show_window(h_window) {
+   document.all[h_window].style.visibility = 'visible';
+}
+
+function hide_window(h_window) {
+   document.all[h_window].style.visibility = 'hidden';
+}
+
+//-->
+</script></head>
+<body bgcolor=#666666 onLoad=delay_move();>
+
+
+
+
+
+<div id="logoII" style="position:absolute;top:0;left:0">
+ 	 <image src=mc4.bmp>
+</div>
+
+<span id="logo" style="position:absolute;top:-105;left:200">
+  <!-- <font size=10 color=WHITE>Mill Creek Hand Crew</font> -->
+	<img src=mctitle.jpg width=600>
+</span>
+
+<!-- Clock Code 
+//-->
+
+<!-- ONE STEP TO INSTALL CURRENT DATE:
+
+   1.  Put the code into the BODY of your HTML document  -->
+
+<!-- STEP ONE: Copy this code into the BODY of your HTML document  -->
+		 
+
+<SCRIPT LANGUAGE="JavaScript1.2">
+
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+
+<!-- Begin
+var months=new Array(13);
+months[1]="January";
+months[2]="February";
+months[3]="March";
+months[4]="April";
+months[5]="May";
+months[6]="June";
+months[7]="July";
+months[8]="August";
+months[9]="September";
+months[10]="October";
+months[11]="November";
+months[12]="December";
+var time=new Date();
+var lmonth=months[time.getMonth() + 1];
+var date=time.getDate();
+var year=time.getYear();
+if (year < 2000)    // Y2K Fix, Isaac Powell
+year = year + 1900; // http://onyx.idbsu.edu/~ipowell
+document.write("<center>" + lmonth + " ");
+document.write(date + ", " + year + "</center>");
+// End -->
+
+
+
+
+
+<!-- Script Size:  1.00 KB  -->
+
+
+<!-- End CLock Code 
+//-->
+document.write("<div id='b' style='position:absolute;top:180;left:0'>");
+document.write("  <table bgcolor=#023E19 width=800> <!--bgcolor=#006600 width=800> -->");
+document.write("    <tr>");
+document.write("      <td class='titlebar'>" +lmonth + " " + date + ", " + year + "</td>");
+document.write("      <td class='titlebar'>Welcome to the Mill Creek Hotshots Website</td>");
+document.write("    </tr>");
+document.write("  </table>");
+document.write("</div>");
+</script>
+<br>
+
+<div id='millcreek' style='position:absolute;top:210;left:275'>
+   <image src=cp.jpg width=525>
+</div>
+
+
+
+
+<div id='ind' style='position:absolute;top:210;left:-250'>
+<table class='menu' height=200> <!-- border bordercolor=#663333> //-->
+  <tr height=50>
+    <td class='menu' width=180>
+      <a href=crew_info.html onmouseover=show_window("crew_popup"); onmouseout=hide_window("crew_popup");>
+        Crew Information
+      </a>
+    </td>
+  </tr>
+  <tr height=50>
+    <td class='menu' width=180>
+      <a href=fireassignments.html onmouseover=show_window("fire_popup"); onmouseout=hide_window("fire_popup");>
+				Fire Assignments
+      </a>
+    </td>
+  </tr>
+  <tr height=50>
+    <td class='menu' width=180>
+      <a href=http://www.avuedigitalservices.com onmouseover=show_window("emp_popup"); onmouseout=hide_window("emp_popup");>
+				Employment
+      </a>
+    </td>
+  </tr>
+  <tr height=50>
+    <td class='menu' width=180>
+      <a href=images_main.html onmouseover=show_window("images_popup"); onmouseout=hide_window("images_popup");>
+        Images
+      </a>
+    </td>
+  </tr>
+  <tr height=50>
+    <td class='menu' width=180>
+      <a href=http://www.fs.fed.us/r5/sanbernardino/ onmouseover=show_window("BDF_popup"); onmouseout=hide_window("BDF_popup");>
+				San Bernardino NF
+      </a>
+    </td>
+  </tr>
+	<tr height=50>
+		<td class='menu' width=180>
+			<a href=sitrep.html onmouseover=show_window("sit_popup"); onmouseout=hide_window("sit_popup");>
+				Fire Links
+			</a>
+		</td>
+	</tr>
+	<tr height=50>
+    <td class='menu' width=180>
+      <a href=contactus.html onmouseover=show_window("contact_popup"); onmouseout=hide_window("contact_popup");>
+        Contact Us
+      </a>
+    </td>
+  </tr>
+</table>
+</div>
+
+
+<div id="crew_popup" style='position:absolute;top:210;left:189;visibility:hidden'>
+  <table class='popup' height=200>
+    <tr>
+      <td class='popup' width=70>See Information on the Mill Creek Hand Crew</td>
+    </tr>
+  </table>
+</div>
+
+<div id="fire_popup" style='position:absolute;top:210;left:189;visibility:hidden'>
+  <table class='popup' height=200>
+    <tr>
+      <td class='popup' width=70>All of our Fire Assignments</td>
+    </tr>
+  </table>
+</div>
+
+<div id="emp_popup" style='position:absolute;top:210;left:189;visibility:hidden'>
+  <table class='popup' height=200>
+    <tr>
+      <td class='popup' width=70>Do you want to work on the Mill Creek Hand Crew</td>
+    </tr>
+  </table>
+</div>
+
+<div id="images_popup" style='position:absolute;top:210;left:189;visibility:hidden'>
+  <table class='popup' height=200>
+    <tr>
+      <td class='popup' width=70>Photos taken by Crew members</td>
+    </tr>
+  </table>
+</div>
+
+<div id="BDF_popup" style='position:absolute;top:210;left:189;visibility:hidden'>
+  <table class='popup' height=200>
+    <tr>
+      <td class='popup' width=70>Visit the San Bernardino National Forest</td>
+    </tr>
+  </table>
+</div>
+
+<div id="sit_popup" style='position:absolute;top:210;left:189;visibility:hidden'>
+  <table class='popup' height=200>
+    <tr>
+      <td class='popup' width=70>Situation Report, <br>NIFC Website, <br>National Fire Weather Page, <br>Large Incident Page</td>
+    </tr>
+  </table>
+</div>
+
+<div id="contact_popup" style='position:absolute;top:210;left:189;visibility:hidden'>
+  <table class='popup' height=200>
+    <tr>
+      <td class='popup' width=70>Need to ask someone a question</td>
+    </tr>
+  </table>
+</div>
+
+
+
+</body>
+</html>
+

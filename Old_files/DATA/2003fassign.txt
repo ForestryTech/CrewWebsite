@@ -1,0 +1,22 @@
+06/19-06/21,Sag Hen,INF,1,E
+06/06-06/07,Fawnskin,BDF,2,B
+07/04,Nevada,BDF,1,B
+07/05,Alabama,BDF,1,C
+07/06-07/17,Encebado,Carson NF,9,G
+07/17-07/23,Molina,Santa Fe NF,5,F
+07/27,Shooter,BDF,1,C
+07/30-8/5,China,SQF,6,F
+08/18,Kentucky,BDF,1,B
+08/19-8/20,Locust,RRU,2,E
+08/24,Los Alamos,ANF,1,D
+08/28,I-15,BDF,1,C
+09/01,Sands & Labor,BDF,1,B
+09/03-09/06,Coarse Grass,SNF,2,B
+09/06-09/14,Bridge,BDF,8,F
+09/15-09/19,Loma,SHF,3,F
+09/20-09/22,Canoe,HUU,2,F
+09/22-09/26,Mouse II,MEU,3,D
+10/01-10/05,Lytle,BDF,5,F
+10/21-10/31,Grand Prix,BDF,11,G
+11/01-11/13,Old,BDF,13,G
+11/20-12/10,Old/Grand Prix Rehab,BDF,20,G

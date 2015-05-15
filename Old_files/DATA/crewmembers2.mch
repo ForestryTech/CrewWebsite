@@ -1,0 +1,10 @@
+Captian 4-1=Vacant
+Squad Boss=Manuel Villegas
+Senior Firefighter=Danielle Cardenas
+Senior Firefighter=Robert Guterrez
+Senior Firefighter=Matt Ahern
+Advanced Apprentice=Scott Sakayeda
+Advanced Apprentice=Brian Olsen
+Advanced Apprentice=Brett Pascale
+Advanced Apprentice=Uriel Ortega
+Firefighter=Vacant

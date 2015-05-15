@@ -1,0 +1,3 @@
+ftp ip address: 205.178.145.65
+username: ntsl94744%003a19e
+default directory: /data/0/0/110/67/110393/user/111906/htdocs
